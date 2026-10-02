@@ -1,0 +1,13 @@
+{
+  "name": "scientific-calculator-javascript",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Browser-based scientific calculator with original Mocha/Chai tests.",
+  "scripts": {
+    "test": "mocha \"test/**/*.js\""
+  },
+  "devDependencies": {
+    "chai": "^4.5.0",
+    "mocha": "^10.8.2"
+  }
+}

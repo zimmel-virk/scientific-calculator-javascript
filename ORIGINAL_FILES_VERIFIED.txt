@@ -1,0 +1,24 @@
+ORIGINAL PROJECT FILE VERIFICATION
+
+The original Scientific Calculator source and test files were copied byte-for-byte from the supplied project archive and verified with SHA-256.
+
+Original files copied and verified: 4
+SHA-256 mismatches: 0
+JavaScript files syntax-checked: 2
+JavaScript syntax failures: 0
+
+Original files preserved:
+- index.html
+- script.js
+- style.css
+- test/test.js
+
+Added repository-support files:
+- README.md
+- .gitignore
+- ORIGINAL_FILES_VERIFIED.txt
+- package.json
+
+Known original inconsistency documented, not fixed:
+- test/test.js expects exp('2^3') to return 8
+- script.js implements exp() with Math.exp(), which computes e^x
